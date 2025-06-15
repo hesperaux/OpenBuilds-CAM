@@ -1,0 +1,9 @@
+# Start the openbuilds-cam:latest container and forward port 9944 to 80
+#
+services:
+  openbuilds-cam:
+    image: openbuilds-cam:latest
+    container_name: openbuilds-cam
+    ports:
+      - "9944:80"
+
